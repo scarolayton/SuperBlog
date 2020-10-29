@@ -5,6 +5,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   padding: 0;
   margin: 0;
+  background-color: rgb(53, 6, 97);
 }
 
 #cabecera {
@@ -24,18 +25,34 @@ body {
   box-shadow: 0px 13px 21px 2px rgba(0, 0, 0, 1);
   color: #fff;
   font-weight: bold;
-
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 0.5em;
 }
-
+#cabecera img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+}
 #container {
   width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   border: 1px solid #ddd;
   margin: 0 auto;
 }
 
-.container h1 {
-  font-size: 20px;
+#post {
+  background-color: white;
+  height: 100%;
+}
+#post h1 {
+  font-size: 80px;
+}
+#post p {
+  font-size: 25px;
 }
